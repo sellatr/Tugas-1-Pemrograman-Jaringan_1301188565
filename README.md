@@ -79,3 +79,6 @@ Command Line (flag)
 -	Pada soal kedua terdapat beberapa jenis flag yaitu : string, integer, Boolean
 -	Pada pemanggilan program menampilkan output yang sesuai dengan jenis flag seperti pada line 53 flag membuat perintah string dan meampilkan output “numb: 42”
 
+## nomor 6
+Program pada soal nomor 6 terdapat program client server dimana program yang berjalan sebagai server menunggu client request untuk mengakses program melalui localhost:8000. Terdapat function di dalam function, yang bekerja untuk pemanggilan 
+Client memanggil localhost:8000 sebagai berikut:
