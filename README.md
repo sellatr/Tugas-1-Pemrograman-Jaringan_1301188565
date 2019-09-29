@@ -28,7 +28,10 @@ Cara kerja pada Client
 
 ## nomor 2
 Hasil Screenshoot:
+
 <img width="558" alt="Printscreen 2a" src="https://user-images.githubusercontent.com/54678313/64358252-51bf2600-d030-11e9-9e10-135b2658da08.png">
+
+
 <img width="568" alt="Printscreen 2b" src="https://user-images.githubusercontent.com/54678313/64358254-5257bc80-d030-11e9-892f-ea3b84012cae.png">
 
 
@@ -44,7 +47,10 @@ ELSE
 
 ## nomor 3
 Hasil Screenshoot:
+
 <img width="562" alt="Printscreen 3a" src="https://user-images.githubusercontent.com/54678313/64358257-54218000-d030-11e9-98ea-31c8759c5a8e.png">
+
+
 <img width="557" alt="Printscreen 3b" src="https://user-images.githubusercontent.com/54678313/64358259-54ba1680-d030-11e9-8262-d88f59668c61.png">
 
 Array
@@ -56,8 +62,12 @@ Function
 
 ## nomor 4
 Hasil Screenshoot:
+
 <img width="559" alt="Printscreen 4a" src="https://user-images.githubusercontent.com/54678313/64358260-5552ad00-d030-11e9-8c78-b187ba33abb6.png">
+
+
 <img width="560" alt="Printscreen 4b" src="https://user-images.githubusercontent.com/54678313/64358261-55eb4380-d030-11e9-811c-d5f1e7d6e3a8.png">
+
 
 Struct
 -	Struct merupakan kumpulan definisi dari variabel dan fungsi, yang dibungkus sebagai tipe data baru dengan nama tertentu
@@ -75,7 +85,10 @@ Method
 
 ## nomor 5
 Hasil Screenshoot:
+
 <img width="557" alt="Printscreen 5a" src="https://user-images.githubusercontent.com/54678313/64358248-508df900-d030-11e9-89db-ed06df836e45.png">
+
+
 <img width="565" alt="Printscreen 5b" src="https://user-images.githubusercontent.com/54678313/64358249-51268f80-d030-11e9-8df5-9149ee227dcb.png">
 
 Multiple Return
@@ -91,7 +104,12 @@ Command Line (flag)
 ## nomor 6
 Program pada soal nomor 6 terdapat program client server dimana program yang berjalan sebagai server menunggu client request untuk mengakses program melalui localhost:8000. Terdapat function di dalam function, yang bekerja untuk pemanggilan 
 Client memanggil localhost:8000 sebagai berikut:
+
 <img width="1434" alt="Printscreen 6" src="https://user-images.githubusercontent.com/54678313/64358250-51bf2600-d030-11e9-958c-5cfa2791ae3a.png">
 
+## nomor 7
+hasil Screenshot:
 
-*catatan : pak maaf saya running di laptop M. Risdham karena laptop belum bisa instal fedora karena pas bagi bagi partisi hardisk nya yg udah dipisahin tidak terbaca terus. tapi saya berusaha untuk menginstal fedora dualboot. Dan unutuk nomor 7 saya kurang paham dengan soalnya dikerjakan bagaimana. Semoga tugas kedepannya saya bisa mengerjakan dengan baik.
+<img width="1435" alt="Printscreen 7" src="https://user-images.githubusercontent.com/54678313/65836759-389e5200-e31c-11e9-8a22-33546d3968ff.png">
+
+untuk program config.json digunakan untuk konfigurasi. Pada file config.json terdapat tipe data untuk server dan memiliki atribut yang berupa port. Fungsi http pada Go dapat digunakan untuk mengambil nomor port dari file config.json dengan menggunakan viper (sintaks viper.GetString(“server.port”)), yang nantinya akan mengembalikan nilai port dari tipe data server didalam file konfig.json.
