@@ -113,3 +113,6 @@ hasil Screenshot:
 <img width="1435" alt="Printscreen 7" src="https://user-images.githubusercontent.com/54678313/65836759-389e5200-e31c-11e9-8a22-33546d3968ff.png">
 
 untuk program config.json digunakan untuk konfigurasi. Pada file config.json terdapat tipe data untuk server dan memiliki atribut yang berupa port. Fungsi http pada Go dapat digunakan untuk mengambil nomor port dari file config.json dengan menggunakan viper (sintaks viper.GetString(“server.port”)), yang nantinya akan mengembalikan nilai port dari tipe data server didalam file konfig.json.
+
+
+catatan : pak mohon maaf untuk tugas 1 ini saya ikun running di laptop M. Risdham karena laptop saya tidak bisa fedora kalo dual boot. terimakasih.
